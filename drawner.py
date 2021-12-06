@@ -59,8 +59,8 @@ def draw_silhouette(silhouettes, resultados):
 
     board = turtle.Turtle()
 
+    turtle.title("Water Silhouettes")
     turtle.tracer(False)
-
     turtle.speed(0)
 
     for i in range(0, len(silhouettes)):
@@ -85,4 +85,4 @@ def draw_silhouette(silhouettes, resultados):
         turtle.update()
         time.sleep(2)
         board.clear()
-    turtle.done()
+    #turtle.done()
